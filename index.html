@@ -4,147 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cortex</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Courier New', monospace;
-      background-color: #ffffff;
-      display: flex;
-    }
-
-    /* Sidebar */
-    #sidebar {
-      position: fixed;
-      left: 0;
-      top: 0;
-      width: 200px;
-      height: 100vh;
-      background-color: #000000;
-      color: #ffffff;
-      padding: 1rem;
-      box-sizing: border-box;
-      transition: transform 0.3s ease;
-      z-index: 1000;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    #sidebar.collapsed {
-      transform: translateX(-100%);
-    }
-
-    /* Sidebar top image */
-    #sidebar img.cortex-logo {
-      width: 128px;
-      height: auto;
-      margin-bottom: 2rem;
-    }
-
-    /* Sidebar link */
-    #sidebar a {
-      display: block;
-      color: #ffffff;
-      text-decoration: none; /* removes underline */
-      margin: 0.5rem 0;
-      text-align: center;
-    }
-
-    #sidebar a:hover {
-      text-decoration: none;
-      opacity: 0.8;
-    }
-
-    /* Toggle arrow button */
-    #toggle-btn {
-      position: fixed;
-      left: 200px;
-      top: 50%;
-      transform: translateY(-50%);
-      background: transparent; /* invisible background */
-      border: none;
-      cursor: pointer;
-      padding: 0;
-      z-index: 1001;
-      transition: left 0.3s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100px; /* taller button */
-    }
-
-    #toggle-btn.collapsed {
-      left: 0;
-    }
-
-    #toggle-btn img {
-      width: 32px;
-      height: auto;
-      display: block;
-    }
-
-    /* Main content area */
-    #content {
-      margin-left: 200px;
-      padding: 2rem;
-      transition: margin-left 0.3s ease;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    #sidebar.collapsed + #toggle-btn + #content {
-      margin-left: 0;
-    }
-
-    /* Hand-drawn images */
-    img.handdrawn {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-    }
-
-    img.top-image {
-      max-width: 300px;
-      margin-bottom: 2rem;
-    }
-
-    img.cortex-text {
-      width: 64px;
-      height: auto;
-      vertical-align: middle;
-    }
-
-    img.bottom-image {
-      max-width: 128px;
-      height: auto;
-      display: block;
-      margin: 0 auto;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      margin-top: auto;
-      color: #555555;
-    }
-
-    /* Paragraph styling */
-    p {
-      margin-top: 1rem;
-      text-align: center;
-      max-width: 600px;
-      align-self: center;
-    }
-
-    /* Spacer for bottom image */
-    .spacer {
-      flex-grow: 1;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Sidebar -->
@@ -165,35 +25,31 @@
     <p>
       Welcome to <img src="images/handdrawn/cortex text.png" alt="Cortex text" class="cortex-text">, a space where I dump random thoughts from my head.
     </p>
+	
+	<h1>
+	  The page is still under construction.
+	</h1>
+
+    <p>
+      Here I share anything that pops into my mind: weird ideas, sketches, coding experiments, or just random things.
+      This is a place for unfiltered creativity, so expect surprises and odd combinations of text and images.
+    </p>
+
+    <p>
+      Feel free to scroll down, explore my decorations, and see little things I’ve added over time.
+      Everything here is curated by me, so if you want to suggest something, contact me via Discord.
+    </p>
 
     <div class="spacer"></div>
 
     <img src="images/handdrawn/bottom.png" alt="Hand-drawn decoration" class="handdrawn bottom-image">
 
     <footer>
-      All content © DeathPL. Please ask for permission before using anything elsewhere.<br>
+      All content copyright © 2026 DeathPL. Please ask for permission before using anything elsewhere.<br>
       Contact me on Discord (deathpl1) if you want to suggest changes or additions.
     </footer>
   </div>
 
-  <script>
-    const sidebar = document.getElementById('sidebar');
-    const toggleBtn = document.getElementById('toggle-btn');
-    const toggleIcon = document.getElementById('toggle-icon');
-
-    toggleBtn.addEventListener('click', () => {
-      sidebar.classList.toggle('collapsed');
-      toggleBtn.classList.toggle('collapsed');
-
-      // Swap icon
-      if (sidebar.classList.contains('collapsed')) {
-        toggleIcon.src = 'images/handdrawn/open arrow.png';
-        toggleIcon.alt = 'Open Sidebar';
-      } else {
-        toggleIcon.src = 'images/handdrawn/close arrow.png';
-        toggleIcon.alt = 'Close Sidebar';
-      }
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>

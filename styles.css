@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #ffffff;
+  display: flex;
+}
+
+/* Sidebar */
+#sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#sidebar.collapsed {
+  transform: translateX(-100%);
+}
+
+/* Sidebar top image */
+#sidebar img.cortex-logo {
+  width: 128px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/* Sidebar link */
+#sidebar a {
+  display: block;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+#sidebar a:hover {
+  opacity: 0.8;
+}
+
+/* Toggle arrow button */
+#toggle-btn {
+  position: fixed;
+  left: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1001;
+  transition: left 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+#toggle-btn.collapsed {
+  left: 0;
+}
+
+#toggle-btn img {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+/* Main content area */
+#content {
+  margin-left: 200px;
+  padding: 2rem;
+  transition: margin-left 0.3s ease;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#sidebar.collapsed + #toggle-btn + #content {
+  margin-left: 0;
+}
+
+/* Hand-drawn images */
+img.handdrawn {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+img.top-image {
+  max-width: 300px;
+  margin-bottom: 2rem;
+}
+
+img.cortex-text {
+  width: 64px;
+  height: auto;
+  vertical-align: middle;
+}
+
+img.bottom-image {
+  max-width: 128px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: auto;
+  color: #555555;
+}
+
+/* Paragraph styling */
+p {
+  margin-top: 1rem;
+  text-align: center;
+  max-width: 600px;
+  align-self: center;
+}
+
+/* Header 1 */
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+  max-width: 600px;
+  align-self: center;
+}
+
+/* Spacer for bottom image */
+.spacer {
+  flex-grow: 1;
+}
