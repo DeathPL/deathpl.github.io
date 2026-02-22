@@ -15,10 +15,6 @@
       margin: 0;
       padding: 2rem;
     }
-    h1 {
-      color: #2222aa; /* nice blue header */
-      text-align: center;
-    }
     p {
       margin-top: 1rem;
       text-align: center;
@@ -26,7 +22,7 @@
       align-self: center;
     }
     .spacer {
-      flex-grow: 1; /* pushes the image to the bottom */
+      flex-grow: 1; /* pushes the bottom image down */
     }
     img.handdrawn {
       max-width: 100%;
@@ -34,10 +30,15 @@
       display: block;
       margin: 0 auto;
     }
+    img.top-image {
+      max-width: 300px; /* optional, keeps it a reasonable size */
+      margin-bottom: 2rem;
+    }
   </style>
 </head>
 <body>
-  <h1>Hello!</h1>
+  <img src="images/handdrawn/hi.png" alt="Hand-drawn Hi" class="handdrawn top-image">
+
   <p>Welcome to <strong>Cortex</strong> - a space where I dump random thoughts in my head.</p>
   <p>All content © DeathPL. Please ask for permission before using anything elsewhere.</p>
   <p>Contact me on Discord (deathpl1) if you want to suggest changes or additions.</p>
