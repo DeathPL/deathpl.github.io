@@ -31,8 +31,15 @@
       transform: translateX(-100%);
     }
 
-    #sidebar p {
+    #sidebar a {
+      display: block;
+      color: #ffffff;
+      text-decoration: none;
       margin: 0.5rem 0;
+    }
+
+    #sidebar a:hover {
+      text-decoration: underline;
     }
 
     /* Toggle arrow */
@@ -120,9 +127,7 @@
 <body>
   <!-- Sidebar -->
   <div id="sidebar">
-    <p>Menu Item 1</p>
-    <p>Menu Item 2</p>
-    <p>Menu Item 3</p>
+    <a href="https://deathpl.github.io" target="_blank">Home</a>
   </div>
 
   <!-- Toggle button -->
