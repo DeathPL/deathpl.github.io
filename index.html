@@ -22,7 +22,7 @@
       align-self: center;
     }
     .spacer {
-      flex-grow: 1; /* pushes the bottom image down */
+      flex-grow: 1; /* pushes content before footer up */
     }
     img.handdrawn {
       max-width: 100%;
@@ -34,17 +34,26 @@
       max-width: 300px; /* optional, keeps it a reasonable size */
       margin-bottom: 2rem;
     }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 2rem;
+      color: #555555; /* lighter color for footer */
+    }
   </style>
 </head>
 <body>
   <img src="images/handdrawn/hi.png" alt="Hand-drawn Hi" class="handdrawn top-image">
 
   <p>Welcome to <strong>Cortex</strong> - a space where I dump random thoughts in my head.</p>
-  <p>All content © DeathPL. Please ask for permission before using anything elsewhere.</p>
-  <p>Contact me on Discord (deathpl1) if you want to suggest changes or additions.</p>
 
   <div class="spacer"></div>
 
   <img src="images/handdrawn/bottom.png" alt="Hand-drawn decoration" class="handdrawn">
+
+  <footer>
+    All content © DeathPL. Please ask for permission before using anything elsewhere.<br>
+    Contact me on Discord (deathpl1) if you want to suggest changes or additions.
+  </footer>
 </body>
 </html>
