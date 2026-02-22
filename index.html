@@ -11,26 +11,39 @@
       font-family: 'Courier New', monospace;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      justify-content: center;
       min-height: 100vh;
       margin: 0;
       padding: 2rem;
     }
     h1 {
       color: #ff6;
+      text-align: center;
     }
     p {
       margin-top: 1rem;
       text-align: center;
       max-width: 600px;
+      align-self: center;
+    }
+    .spacer {
+      flex-grow: 1; /* pushes the image to the bottom */
+    }
+    img.handdrawn {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
   <h1>Hello!</h1>
-  <p>Welcome to <strong>Cortex</strong>, a space where I dump random thoughts in my head.</p>
+  <p>Welcome to <strong>Cortex</strong> - a space where I dump random thoughts in my head.</p>
   <p>All content © DeathPL. Please ask for permission before using anything elsewhere.</p>
   <p>Contact me on Discord (deathpl1) if you want to suggest changes or additions.</p>
+
+  <div class="spacer"></div>
+
+  <img src="images/handdrawn/bottom.png" alt="Hand-drawn decoration" class="handdrawn">
 </body>
 </html>
