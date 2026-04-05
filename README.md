@@ -1,5 +1,5 @@
 # Cortex
-A site where i dump random thoughts in my head.
+A site where i dump random thoughts from my head.
 
 **Live site:** [https://deathpl.github.io](https://deathpl.github.io)
 
