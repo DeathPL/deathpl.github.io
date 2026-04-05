@@ -10,7 +10,7 @@ body {
   position: fixed;
   left: 0;
   top: 0;
-  width: 200px;
+  width: 150px;
   height: 100vh;
   background-color: #000000;
   color: #ffffff;
@@ -50,7 +50,7 @@ body {
 /* Toggle arrow button */
 #toggle-btn {
   position: fixed;
-  left: 200px;
+  left: 150px;
   top: 50%;
   transform: translateY(-50%);
   background: transparent;
