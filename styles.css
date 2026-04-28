@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #ffffff;
   display: flex;
 }
@@ -21,10 +23,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#sidebar.collapsed {
-  transform: translateX(-100%);
 }
 
 /* Sidebar top image */
@@ -65,10 +63,6 @@ body {
   height: 100px;
 }
 
-#toggle-btn.collapsed {
-  left: 0;
-}
-
 #toggle-btn img {
   width: 32px;
   height: 32px;
@@ -84,10 +78,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-
-#sidebar.collapsed + #toggle-btn + #content {
-  margin-left: 0;
 }
 
 /* Hand-drawn images */
@@ -143,4 +133,30 @@ h1 {
 /* Spacer for bottom image */
 .spacer {
   flex-grow: 1;
+}
+
+/* cards stuff */
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 12px;
+  gap: 1rem;
+}
+.card.stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  border-radius: 12px;
+  border: 3px solid black;
+  width: 64px;
+  height: auto;
+}
+.card h2, .card p {
+  margin: 5px;
 }
