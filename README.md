@@ -3,9 +3,22 @@ a site where i dump my stupid rhtoughts into. yeah
 
 **live site** [https://deathpl.github.io](https://deathpl.github.io)
 
+## comit histori
+1. Changed README.md (2)
+2. Changed README.md
+3. Removed sidebar collapse, changed main text, changed font to Inter, added bottom.png to projects, added cortex as a project, etc.
+4. Merge branch 'main' of https://github.com/DeathPL/deathpl.github.io
+5. Added projects page, changed some stuff
+6. Correct wording in README.md
+7. sorry for the other font, its fixed now
+8. Changed font family
+9. Changed main page text
+10. Changed stuff 1
+im not gonna list everything here (only top 10)
+
 ## copyrihgt
 
-all content on is © DeathPL.  
+all content is © DeathPL
 - no license is applied so legally nobody may copy distribute or use this content without my explicit permission
 - please ask for permission before using any content in a video article or other media
 
