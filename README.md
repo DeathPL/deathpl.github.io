@@ -14,6 +14,7 @@ a site where i dump my stupid rhtoughts into. yeah
 8. Changed font family
 9. Changed main page text
 10. Changed stuff 1
+
 im not gonna list everything here (only top 10)
 
 ## copyrihgt
