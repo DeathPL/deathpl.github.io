@@ -21,9 +21,9 @@ im not gonna list everything here (only top 10)
 
 so basically if u wanna use this site somewhere then remember to properly credit me
 example:
-Site: [https://deathpl.github.io](https://deathpl.github.io)
+`Site: [https://deathpl.github.io](https://deathpl.github.io)
 Cortex by DeathPL
-DeathPL: [https://linktr.ee/DeathPL](https://linktr.ee/DeathPL)
+DeathPL: [https://linktr.ee/DeathPL](https://linktr.ee/DeathPL)`
 
 ## how to contribuet
 
