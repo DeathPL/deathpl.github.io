@@ -19,8 +19,8 @@ im not gonna list everything here (only top 10)
 
 ## copyrihgt
 
-so basically if u wanna use this site somewhere then remember to properly credit me
-example:
+so basically if u wanna use this site somewhere then remember to properly credit me<br>
+example:<br>
 Site: [https://deathpl.github.io](https://deathpl.github.io)<br>
 Cortex by DeathPL<br>
 DeathPL: [https://linktr.ee/DeathPL](https://linktr.ee/DeathPL)
