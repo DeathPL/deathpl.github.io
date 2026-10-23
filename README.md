@@ -36,3 +36,5 @@ i welcome suggestions and contributions but all contributions are subject to my 
 3. you will be credited in the place you changed or added content so your contribution is visible
 
 > do not submit pull requests or attempt to merge content without my approval contributions not explicitly authorized by me are considered invalid and will not be merged
+
+> NO AI WAS USED FOR THIS SITE
