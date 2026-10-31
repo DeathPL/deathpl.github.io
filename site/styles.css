@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Inter', system-ui,sans-serif;
-  background-color: #110500;
+  background-color: #111;
   display: flex;
 }
 
@@ -13,7 +13,7 @@ body {
   top: 0;
   width: 150px;
   height: 100vh;
-  background-color: #332200;
+  background-color: #333;
   color: #ffffff;
   padding: 1rem;
   box-sizing: border-box;
@@ -133,7 +133,7 @@ h1 {
   align-items: center;
   margin-bottom: 1rem;
   padding: 10px 20px;
-  background-color: #221100;
+  background-color: #222;
   border: 1px solid black;
   border-radius: 16px;
   gap: 1rem;
@@ -142,7 +142,7 @@ h1 {
 }
 .card:hover{
   box-shadow:0 6px 18px rgba(0,0,0,0.6);
-  border-color:#332200;
+  border-color:#333;
 }
 .card.stuff {
   display: flex;
@@ -158,7 +158,7 @@ h1 {
   transition:0.2s ease;
 }
 .card img:hover{
-  border-color:#443300;
+  border-color:#444;
 }
 .card h2, .card p {
   margin: 5px;
@@ -173,7 +173,7 @@ h1 {
   flex-direction: column;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  background:#221100;
+  background:#222;
   border:1px solid black;
   box-shadow:0 5px 15px rgba(0,0,0,0.3);
   border-radius:24px;
@@ -184,7 +184,7 @@ h1 {
 }
 #updatelog:hover{
   box-shadow:0 6px 18px rgba(0,0,0,0.6);
-  border-color:#332200;
+  border-color:#333;
 }
 #updatelog ul{
   text-align:left;
@@ -194,7 +194,7 @@ h1 {
   transition:0.2s ease;
 }
 #updatelog ul:hover{
-  border:2px solid #443300;
+  border:2px solid #444;
 }
 #updatelog .a{
   font-size:10px;
@@ -235,12 +235,11 @@ h1 {
   width:12px;
 }
 ::-webkit-scrollbar-thumb{
-  background-color:#332200;
-  border-radius:9999px;
+  background-color:#333;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background-color:#443300;
+  background-color:#444;
 }
 ::-webkit-scrollbar-track{
-  background-color:#110500;
+  background-color:#111;
 }

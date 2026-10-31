@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family:'Inter',system-ui,sans-serif;
+    box-sizing:border-box;
+}
+body{
+    height:100dvh;
+    overflow:hidden;
+}
+#polarbear{
+    background:url('polarbear.jfif');
+    background-position:0;
+    cursor:pointer;
+    height:100dvh;
+    background-size:300px;
+    animation:move 15s infinite linear;
+    filter:contrast(5);
+}
+@keyframes move{
+    0%{
+        background-position:0;
+    }
+    100%{
+        background-position:100%;
+    }
+}
