@@ -1,21 +1,19 @@
 # cortex
 a site i dump my stupid rhtoughts into. yeah
 
-# REVAMP IS OUT!
-
 **live site** [https://deathpl.github.io](https://deathpl.github.io)
 
 ## comit histori
-1. REVAMP
-2. Changed README.md (3)
-3. Changed README.md (2)
-4. Changed README.md
-5. Removed sidebar collapse, changed main text, changed font to Inter, added bottom.png to projects, added cortex as a project, etc.
-6. Merge branch 'main' of https://github.com/DeathPL/deathpl.github.io
-7. Added projects page, changed some stuff
-8. Correct wording in README.md
-9. sorry for the other font, its fixed now
-10. Changed font family
+1. polar bear
+2. REVAMP
+3. Changed README.md (3)
+4. Changed README.md (2)
+5. Changed README.md
+6. Removed sidebar collapse, changed main text, changed font to Inter, added bottom.png to projects, added cortex as a project, etc.
+7. Merge branch 'main' of https://github.com/DeathPL/deathpl.github.io
+8. Added projects page, changed some stuff
+9. Correct wording in README.md
+10. sorry for the other font, its fixed now
 
 im not gonna list everything here (only top 10)
 
